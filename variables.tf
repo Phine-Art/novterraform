@@ -50,3 +50,10 @@ variable "private_data_subnet_az2_cidr_block" {
   description = "CIDR block for the private data subnet in availability zone 2"
   type        = string
 }
+
+# Security group variables
+variable "ssh_location" {
+  description = "The IP address that can be used to SSH to the EC2 instances"
+  type        = string
+  
+}
